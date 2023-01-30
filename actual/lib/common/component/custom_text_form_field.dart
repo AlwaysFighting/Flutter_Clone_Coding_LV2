@@ -39,6 +39,7 @@ class CustomTextFormField extends StatelessWidget {
         fillColor: INPUT_BG_COLOR,
         filled: true,
         border: baseBoder,
+        enabledBorder: baseBoder,
         focusedBorder: baseBoder.copyWith(
           borderSide: baseBoder.borderSide.copyWith(
             color: PRIMARY_COLOR,
