@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_river_project/layout/default_layout.dart';
 import 'package:flutter_river_project/riverpod/state_notifier_provider.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
 import '../model/shoppingItem_model.dart';
 
 class StateNotifierProviderScreen extends ConsumerWidget {
