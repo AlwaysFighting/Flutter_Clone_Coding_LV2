@@ -11,8 +11,6 @@ class ProviderScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final state = ref.watch(filteredShoppingListProvider);
 
-    print(state);
-
     return DefaultLayout(
       title: "ProviderScreen",
       actions: [
@@ -37,7 +35,7 @@ class ProviderScreen extends ConsumerWidget {
                 onChanged: (value) {
                   ref.read(shoppingListProvider.notifier).toggleHasBought(
                         name: e.name,
-                      );
+                  );
                 },
               ),
             )
